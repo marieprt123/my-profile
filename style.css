@@ -31,6 +31,16 @@ img{
 	margin : 5px;
 }
 
+a{
+	 color: #5271FF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: none;
+
+}
 section{
 		margin: auto;
 		color:black;
