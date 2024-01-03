@@ -2,65 +2,79 @@ body
 { 
 	background-position: center;
 	background-attachment: fixed;
-	background-color: white;
+	background-color: rgb(252,224,155, 0.5);
 	background-repeat: no-repeat;
 	background-size: cover; 
  }
 
 h1 {
 	text-align: center;
-	color: blueviolet;
-	font-family: Georgia, serif;
+	color: rgb(24, 111, 101);
+	font-family: Playfair Display, serif;
+	font-size:30px;
+	font-weight: 650;
 }
 
 h2 {
 	text-align: center;
-	color: blueviolet;
+	color: rgb(178, 83, 62);
 	padding:0px 25px 0px 25px;
-	font-family: Georgia, serif;
+	font-family: Playfair Display, serif;
+	font-size:25px;
+	font-weight: 650;
 }
 
 h3{
 	text-align: left;
 	color: black;
-	font-family: Georgia, serif;
+	font-family: Playfair Display, serif;
+	font-size:20px;
+	font-weight: 500;
+}
+
+.text-type{
+	color:black;
+	text-align:justify;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 15px;
+}
+
+#text-center{
+	text-align:center;
 }
 
 img{
-	border-radius : 10px 10px;
+	border-radius : 50%;
 	margin : 5px;
 }
 
 a{
-	 color: #5271FF;
+  color: rgb(24, 111, 101);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 a:hover {
-  color: blueviolet;
+  color: #5271FF;
   text-decoration: none;
 
 }
-section{
-		margin: auto;
-		color:black;
-		text-align: center;
-		background-color:rgba(255, 255, 255, 0.90);
-		border-color: rgb(0, 0, 0);
-		border-radius : 10px 10px;
-		max-width:800px;
-	 	padding:5px 25px 10px 25px;
-	 	font-family: "Gill Sans", sans-serif;
+
+.box-form{
+	max-width:800px;
+	margin: 20px auto;
+	padding:5px 25px 10px 25px;
+	box-shadow:3px 3px 7px rgb(181, 203, 153);
+	background-color:rgba(255, 255, 255, 0.90);
+}
+
+div{
+	border-color: white;
+	border-width: 1px;
+	border-radius : 40px;
 }
 
 fieldset{
-		margin: auto;
-		color:black;
-		text-align: justify;
-		background-color:rgba(255, 255, 255, 0.90);
-		border-color: rgb(0, 0 ,0);
-		border-radius : 5px 50px;
-		max-width:800px;
-	 	padding:5px 25px 5px 25px;
-	 	font-family: "Gill Sans", sans-serif;
+		border-color: rgb(181, 203, 153);
+		border-width: 1px;
+		border-radius : 5px 40px;
 }
