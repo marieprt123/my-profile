@@ -2,42 +2,55 @@ body
 { 
 	background-position: center;
 	background-attachment: fixed;
-	background-color: red;
+	background-color: white;
 	background-repeat: no-repeat;
 	background-size: cover; 
  }
+
 h1 {
 	text-align: center;
 	color: blueviolet;
+	font-family: Georgia, serif;
 }
 
 h2 {
 	text-align: center;
-	color: blue;
+	color: blueviolet;
+	padding:0px 25px 0px 25px;
+	font-family: Georgia, serif;
 }
 
 h3{
 	text-align: left;
 	color: black;
+	font-family: Georgia, serif;
+}
+
+img{
+	border-radius : 10px 10px;
+	margin : 5px;
 }
 
 section{
 		margin: auto;
 		color:black;
-		text-align: left;
+		text-align: center;
 		background-color:rgba(255, 255, 255, 0.90);
 		border-color: rgb(0, 0, 0);
+		border-radius : 10px 10px;
 		max-width:800px;
-	 	padding:0 25px 10px 25px;
+	 	padding:5px 25px 10px 25px;
+	 	font-family: "Gill Sans", sans-serif;
 }
 
 fieldset{
 		margin: auto;
 		color:black;
-		text-align: left;
+		text-align: justify;
 		background-color:rgba(255, 255, 255, 0.90);
-		border-color: rgb(0, 0, 0);
+		border-color: rgb(0, 0 ,0);
+		border-radius : 5px 50px;
 		max-width:800px;
-	 	padding:0 25px 10px 25px;	
-	}
-
+	 	padding:5px 25px 5px 25px;
+	 	font-family: "Gill Sans", sans-serif;
+}
