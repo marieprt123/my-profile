@@ -1,16 +1,22 @@
+/*color and fonts*/
 body 
 { 
-	background-position: center;
-	background-attachment: fixed;
 	background-color: rgb(252,224,155, 0.5);
-	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 15px;
+	font-weight: lighter; 
+	color:black;
+	text-align:center;	
  }
+
+h1,h2,h3{
+	font-family: Playfair Display, serif;
+}
 
 h1 {
 	text-align: center;
 	color: rgb(24, 111, 101);
-	font-family: Playfair Display, serif;
 	font-size:30px;
 	font-weight: 650;
 }
@@ -19,62 +25,85 @@ h2 {
 	text-align: center;
 	color: rgb(178, 83, 62);
 	padding:0px 25px 0px 25px;
-	font-family: Playfair Display, serif;
 	font-size:25px;
 	font-weight: 650;
+	margin:5px;
 }
 
 h3{
 	text-align: left;
 	color: black;
-	font-family: Playfair Display, serif;
 	font-size:20px;
 	font-weight: 500;
+	margin:5px;
 }
 
-.text-type{
-	color:black;
-	text-align:justify;
-	font-family: "Gill Sans", sans-serif;
-	font-size: 15px;
+a{
+  font-family:Playfair Display, serif;
+  font-size:20px;
+  font-weight:500;
+  text-decoration: none;
 }
 
-#text-center{
-	text-align:center;
+/*custom design with class*/
+
+.container{
+	max-width: 900px ;
+	margin: 40px auto;
 }
 
-img{
+.box-design{
+	background-color:rgba(255, 255, 255, 0.90);
+	max-width:800px;
+	margin: 20px auto;
+	padding:10px 25px;
+	box-shadow:3px 3px 7px rgb(181, 203, 153, 0.7);
+	border-radius: 20px;
+}
+
+.fieldset{
+		border-color: rgb(181, 203, 153);
+		border-width: 1px;
+		border-radius : 5px 40px;
+		text-align: justify;
+}
+
+.img-circle{
 	border-radius : 50%;
 	margin : 5px;
 }
 
-a{
-  color: rgb(24, 111, 101);
-  text-decoration: none;
-  transition: color 0.3s ease;
+.btn-green{
+	background-color:rgb(24, 111, 101);
+	color:white;
+	padding: 15px 20px;
+	border-radius:5px;
+	transition: color 0.3s ease;
 }
-a:hover {
-  color: #5271FF;
-  text-decoration: none;
-
-}
-
-.box-form{
-	max-width:800px;
-	margin: 20px auto;
-	padding:5px 25px 10px 25px;
-	box-shadow:3px 3px 7px rgb(181, 203, 153);
-	background-color:rgba(255, 255, 255, 0.90);
+.btn-green:hover{
+	background-color:rgb(181, 203, 153);
+	color:white;
 }
 
-div{
-	border-color: white;
-	border-width: 1px;
-	border-radius : 40px;
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li{
+	display: inline;
+	padding:10px;
+}
+.list-inline i{
+	font-size: 30px;
+	color:rgb(24, 111, 101) ;
+}
+.list-inline i:hover{
+	color:rgb(181, 203, 153);
 }
 
-fieldset{
-		border-color: rgb(181, 203, 153);
-		border-width: 1px;
-		border-radius : 5px 40px;
+
+/*custom design with id*/
+
+#introduction p{
+	margin-bottom:40px ;
 }
